@@ -1,0 +1,29 @@
+{
+  "name": "learn-japanese-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "blacksand": "^1.2.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status-toolkit": "^1.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.4",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "openai": "^4.79.1"
+  }
+}
