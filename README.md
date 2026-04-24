@@ -1,6 +1,8 @@
 
-# LearnJapanese
+# LearnJapanese 
 A simple japanese language learning website, created using react, react-router-dom, firebase authentication, and MongoDB CRUD functionality with jwt token. This is the client site repository of this website
+
+## Frontend
 
 # Live Link
 # [Visit LearnJapanese](https://learjapaneese.web.app)
@@ -34,7 +36,7 @@ A simple japanese language learning website, created using react, react-router-d
 
 
 
-# LearnJapanese
+# Backend
 A simple japanese language learning platform, created using react, react-router-dom, firebase authentication, and MongoDB CRUD functionality with jwt token. This is the server site repository of this website
 
 # Link
