@@ -1,56 +1,84 @@
+# LearnJapanese – Language Learning Platform
 
-# LearnJapanese 
-A simple japanese language learning website, created using react, react-router-dom, firebase authentication, and MongoDB CRUD functionality with jwt token. This is the client site repository of this website
+**LearnJapanese** is a full-stack web application designed to help users learn Japanese through an interactive and structured experience. The platform includes secure authentication, user progress management, and an admin dashboard for content control.
 
-## Frontend
+🔗 **Live Application:** [https://learjapaneese.web.app](https://learjapaneese.web.app)
+🔗 **Backend API:** [https://learn-japanese-app-server.vercel.app](https://learn-japanese-app-server.vercel.app)
 
-# Live Link
-# [Visit LearnJapanese](https://learjapaneese.web.app)
+---
 
-### Admin Email: rashedinislam.06@gmail.com
-### Admin Password: RU@123
+## Overview
 
+This project demonstrates end-to-end development of a modern web application, including frontend UI, backend APIs, authentication, and database integration. It focuses on scalability, clean architecture, and user experience.
 
-# Features & Characteristics
--  Admin Dashboard
--  MongoDB Connection
--  CRUD Functionality
--  JWT Authentication
--  Firebase Authentication
--  Create and Login User with Email and Password using React-Hook-Form
--  Github and Google Login
--  React Router Dom
--  AuthProvider and AuthContext
--  ThemeProvider and Theme applied for the whole website
--  Environment variable for firebase config keys
--  Fully Responsive for extra large, large, medium, small devices.
+---
 
+## Key Features
 
+### User Features
 
-# NPM Package Used for This Project
--  TanStack Query
--  React Hook Form
--  React Confetti
--  React Tooltip
--  react-helmet-async
+* Secure authentication (Email/Password, Google, GitHub)
+* JWT-based session management
+* Responsive UI across all device sizes
+* Interactive learning experience with dynamic content
+* Form handling with validation
 
+### Admin Features
 
+* Admin dashboard for managing content
+* Full CRUD operations for learning resources
+* Role-based access control
 
-# Backend
-A simple japanese language learning platform, created using react, react-router-dom, firebase authentication, and MongoDB CRUD functionality with jwt token. This is the server site repository of this website
+---
 
-# Link
-[Visit LearnJapanese Server Side](https://learn-japanese-app-server.vercel.app)
+## Tech Stack
 
+### Frontend
 
-# Features & Characteristics
--  MongoDB Database
--  CRUD Functionality
--  MongoDB Aggregate Pipeline
--  JWT Authentication
--  JWT Token Stored in LocalStorage
--  CORS, CookieParser
--  Mail Send Using Nodemailer
--  .env File Used for MongoDB User Name and Password
+* React
+* React Router
+* Firebase Authentication
+* TanStack Query (data fetching & caching)
+* React Hook Form (form management)
+* React Helmet Async (SEO optimization)
 
+### Backend
 
+* Node.js
+* Express.js
+* MongoDB (with Aggregation Pipeline)
+* JWT Authentication
+* Nodemailer (email services)
+* CORS & Cookie Parser
+
+---
+
+## Architecture Highlights
+
+* **Authentication:** Firebase for user login + JWT for secure API communication
+* **State Management:** Server-state handled efficiently using TanStack Query
+* **Database:** MongoDB with optimized queries and aggregation pipelines
+* **Security:** Environment variables for sensitive credentials, token-based auth
+* **Scalability:** Separation of frontend and backend with RESTful API design
+
+---
+
+## Environment & Configuration
+
+Sensitive credentials (Firebase config, MongoDB URI, JWT secrets) are managed via environment variables using `.env` files.
+
+---
+
+## What This Project Demonstrates
+
+* Full-stack development skills
+* Secure authentication implementation
+* REST API design and integration
+* Database design and query optimization
+* Clean and maintainable React architecture
+
+---
+
+## Notes
+
+Admin credentials are not included in this README for security reasons. They can be provided upon request if needed for evaluation.
